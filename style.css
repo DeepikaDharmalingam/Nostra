@@ -88,6 +88,31 @@ body{
     background-color:rgb(247, 234, 234);
     padding: 10px;
 }
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color:seagreen;
+    position: absolute;
+    top:50%;
+    left:18%;
+    border-radius:10px ;
+    border: none;
+
+}
 
 /*Media Query*/
 
